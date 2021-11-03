@@ -26,8 +26,8 @@ PowerShell choice makes is compatible with wider range of platforms.
 | Environment Variable | Example  | Purpose | 
 |----------------------|----------|---------|
 | DYNU_USERNAME        | username | your login name in dynu.com |
-| DYNU_DOMAIN          | myhome.accesscam.org | your login name in dynu.com |
-| DYNU_PASSWORD        | mySecret | your login name in dynu.com |
+| DYNU_DOMAIN          | myhome.accesscam.org | your DDns hostname in dynu.com |
+| DYNU_PASSWORD        | mySecret | your ipupdate password in dynu.com |
 | DYNU_APIKEY          | a6De5034 | REST API KEY for dynu.com |
 | DYNU_SLEEP           | 120      | sleep seconds between checks |
 

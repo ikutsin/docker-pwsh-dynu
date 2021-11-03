@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: dynu_app_tests
+    build:
+      target: pester
+    restart: "no"

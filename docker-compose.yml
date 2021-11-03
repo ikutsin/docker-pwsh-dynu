@@ -1,0 +1,16 @@
+version: '3.7'
+
+
+services:
+  app:
+    container_name: dynu_app
+    build:
+      context: .
+      target: posh
+    environment:
+      - DYNU_DOMAIN=${DYNU_DOMAIN}
+      - DYNU_USERNAME=${DYNU_USERNAME}
+      - DYNU_PASSWORD=${DYNU_PASSWORD}
+      - DYNU_APIKEY=${DYNU_APIKEY}
+      - DYNU_SLEEP=${DYNU_SLEEP:-30}
+    restart: always
